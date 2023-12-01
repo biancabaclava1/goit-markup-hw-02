@@ -2,7 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
     
 }
-.footer{
-    background-color: #2e2f42;
+.footer {
+    background-color: var(--footer-background-color);
+}
 
+/* Definirea variabilei pentru culoare */
+:root {
+    --footer-background-color: #2e2f42;
 }
