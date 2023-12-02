@@ -1,40 +1,23 @@
+
+:root {
+    --my-variable: #FFFFFFFF;
+  }
+
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--#FFFFFFFF);
     
 }
-.navigation-menu .logo {
-    font-family: "Raleway", sans-serif;
+
+logo-link{
+    font-family: "Raleway" sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--#FFFFFFFF); 
-    text-decoration: none;
-}
+    color:var(--);
+text-decoration: none;
 
-.navigation-menu .logo .text-studio {
-    color: var(--#FFFFFFFF); 
-}
 
-.navigation-menu .list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.navigation-menu .list li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.navigation-menu .list li a {
-    color: var(--#FFFFFFFF); 
-    text-decoration: none;
-}
-
-.navigation-menu .list li a:hover {
-    color: var(--#FFFFFFFF); 
 }
