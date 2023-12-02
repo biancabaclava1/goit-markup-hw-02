@@ -158,3 +158,40 @@ body {
     letter-spacing: 0.02em;
 
 }
+.list {
+    list-style: none;
+  }
+  .all-web-app{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:#4d5ae5 ;
+    background-color: #F4F4FD;
+    cursor: pointer;
+
+  }
+  .all-web-app :hover{
+    color:#ffffffff;
+    background-color:#404BBF ;
+  }
+  .all-web-app :focus{
+    color:#FFFFFFFF ;
+    background-color: #404BBF;
+  }
+.all-port-images{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+.portofolio-paragraph{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
