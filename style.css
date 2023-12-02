@@ -1,7 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    background-color: var(--background-color);
+    background-color: var(--#FFFFFFFF);
     
 }
 .navigation-menu .logo {
@@ -11,13 +11,12 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--culoare-text); /* Replace with your color variable */
+    color: var(--#FFFFFFFF); 
     text-decoration: none;
 }
 
 .navigation-menu .logo .text-studio {
-    color: var(--culoare-text-studio); /* Replace with your color variable for "Studio" */
-    /* Additional styles for "Studio" */
+    color: var(--#FFFFFFFF); 
 }
 
 .navigation-menu .list {
@@ -32,11 +31,10 @@ body {
 }
 
 .navigation-menu .list li a {
-    color: var(--culoare-text); /* Replace with your color variable */
+    color: var(--#FFFFFFFF); 
     text-decoration: none;
 }
 
 .navigation-menu .list li a:hover {
-    color: var(--culoare-text-hover); /* Replace with your color variable for hover effect */
-    /* Additional styles for hover state */
+    color: var(--#FFFFFFFF); 
 }
