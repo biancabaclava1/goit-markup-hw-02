@@ -4,3 +4,39 @@ body {
     background-color: var(--background-color);
     
 }
+.navigation-menu .logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--culoare-text); /* Replace with your color variable */
+    text-decoration: none;
+}
+
+.navigation-menu .logo .text-studio {
+    color: var(--culoare-text-studio); /* Replace with your color variable for "Studio" */
+    /* Additional styles for "Studio" */
+}
+
+.navigation-menu .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation-menu .list li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation-menu .list li a {
+    color: var(--culoare-text); /* Replace with your color variable */
+    text-decoration: none;
+}
+
+.navigation-menu .list li a:hover {
+    color: var(--culoare-text-hover); /* Replace with your color variable for hover effect */
+    /* Additional styles for hover state */
+}
