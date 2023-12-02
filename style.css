@@ -71,7 +71,7 @@ body {
     cursor: pointer;
 }
 .order-button :hover{
-    background-color: #404bbf
+    background-color: #404bbf;
 
 }
 .order-button :focus{
