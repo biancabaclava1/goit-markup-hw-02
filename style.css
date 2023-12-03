@@ -91,11 +91,11 @@ color: #404bbf ;
     color: #ffffff;
     cursor: pointer;
 }
-.order-button :hover{
+.order-button:hover{
     background-color: #404bbf;
 
 }
-.order-button :focus{
+.order-button:focus{
     background-color: #404bbf;
 }
 .list{
@@ -190,11 +190,11 @@ color: #404bbf ;
     cursor: pointer;
 
   }
-  .all-web-app :hover{
+  .all-web-app:hover{
     color:#ffffffff;
     background-color:#404BBF ;
   }
-  .all-web-app :focus{
+  .all-web-app:focus{
     color:#FFFFFFFF ;
     background-color: #404BBF;
   }
