@@ -1,7 +1,23 @@
 
+:root{
+    --text-font-family: 'Roboto', 'Raleway', sans-serif;
+    --brand-color-iris: #4D5AE5;
+    --brand-color-ocean: #404BBF;
+    --brand-color-navvy-blue: #2E2F42;
+    --brand-color-slate: #434455;
+    --brand-color-cornflower: #E7E9FC;
+    --brand-color-cloud: #F4F4FD;
+    
+}
 
-
-
+body{
+    font-family: "Roboto" , sans-serif ;
+    color: var(--brand-color-slate);
+    background-color: #FFFFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
 .link{
     text-decoration: none;
 }
@@ -12,7 +28,7 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--brand-color-iris)
 
 
 }
@@ -42,11 +58,7 @@ color: #404bbf ;
 
 
 
-body{
-    font-family: "Roboto" , sans-serif ;
-    color: #434455;
-    background-color: #FFFFFFFF;
-}
+
 
 .mail-adress{
     font-size: 16px;
