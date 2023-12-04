@@ -8,17 +8,16 @@
     --brand-color-cornflower: #E7E9FC;
     --brand-color-cloud: #F4F4FD;
     
+}
 
-
-    body{
-        font-family: "Roboto" , sans-serif ;
-        color: var(--brand-color-slate);
-        background-color: #FFFFFFFF;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-    }
-    
+body{
+    font-family: "Roboto" , sans-serif ;
+    color: var(--brand-color-slate);
+    background-color: #FFFFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
 .link{
     text-decoration: none;
 }
@@ -223,5 +222,4 @@
 .backgroundc{
     background-color: #FFFFFFFF;
     
-}
 }
