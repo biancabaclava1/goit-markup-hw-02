@@ -10,7 +10,7 @@
 }
 
 body{
-    font-family: var(--text-font-family) ;
+    font-family: "Roboto" , sans-serif ;
     color: var(--brand-color-slate);
     background-color: #FFFFFFFF;
     font-size: 16px;
@@ -82,7 +82,7 @@ body{
 
 }
 .order-button{
-    background-color: var(--brand-color-iris);
+    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif ;
     font-weight: 500;
     font-size: 16px;
