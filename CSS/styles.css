@@ -6,7 +6,16 @@
     --brand-color-slate: #434455;
     --brand-color-cornflower: #E7E9FC;
     --brand-color-cloud: #F4F4FD;
-    
+    --fs-small: 18px;
+    --fs-body: 16px;
+    --fs-title: 56px;
+    --fs-h2: 36px;
+    --fs-medoi: 20px;
+    --fs-extra-small: 12px;
+    --fw-blackt: 800;
+    --fw-boldt: 700;
+    --fw-normalt: 400;
+    --fw-mediumt: 500;
 }
 
 body{
