@@ -345,3 +345,7 @@ border-radius: 0px 0px 4px 4px 4px ;
 img{
     display: block;
 }
+.second-portfolio-section{
+    display: flex;
+    gap: 24px;
+}
