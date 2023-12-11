@@ -142,6 +142,7 @@ body{
 }
 .our-team{
     background-color: #F4F4FD;
+    padding: 120px 0 120px;
 
 }
 
@@ -152,6 +153,7 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:  #2e2f42;
+    margin-bottom: 72px;
 
 }
 .mark{
@@ -161,6 +163,9 @@ body{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+
 
 }
 .jobs{
@@ -168,6 +173,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-align: center;
 
 }
 .footer{
@@ -236,7 +242,8 @@ body{
 }
 .backgroundc{
     background-color: #FFFFFFFF;
-    
+    width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px 4px ;
 }
 .header-index{
     border-bottom: 1px solid #e7e9fc ;
@@ -275,5 +282,13 @@ body{
 }
 .photos-section{
     width: calc((100% - 48px) / 3) ;
-    
+
+}
+.team-list-name{
+    display: flex;
+    gap: 24px;
+}
+.name-job-description{
+    padding: 32px 0 32px;
+
 }
