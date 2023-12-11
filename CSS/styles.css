@@ -215,15 +215,21 @@ body{
     color:#4d5ae5 ;
     background-color: #F4F4FD;
     cursor: pointer;
+    padding: 12px 24px 12px ;
+    border:1px solid var(--brand-color-cornflower);
+    border-radius: 4px;
+
 
   }
   .all-web-app:hover{
     color:#ffffffff;
     background-color:#404BBF ;
+    border: 1px solid transparent; 
   }
   .all-web-app:focus{
     color:#FFFFFFFF ;
     background-color: #404BBF;
+    border: 1px solid transparent;
   }
 .all-port-images{
     font-weight: 500;
@@ -309,4 +315,15 @@ border-radius: 0px 0px 4px 4px 4px ;
 .portfolio-nav{
     display: flex;
     align-items: center;
+}
+.portfolio-first-section{
+    padding-top: 96px;
+    padding-bottom: 120px;
+
+}
+.portfolio-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
