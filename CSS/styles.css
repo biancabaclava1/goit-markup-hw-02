@@ -137,6 +137,7 @@ body{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 
 }
 .our-team{
@@ -263,4 +264,16 @@ body{
 }
 .first-element{
     width: calc((100% - 72px) / 4) ;
+}
+.third-section{
+    padding-bottom: 120px;
+
+}
+.third-section-list{
+    display: flex;
+    gap: 24px;
+}
+.photos-section{
+    width: calc((100% - 48px) / 3) ;
+    
 }
