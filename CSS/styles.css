@@ -27,7 +27,9 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--brand-color-iris)
+    color: var(--brand-color-iris);
+    margin-right: 76px;
+    padding: 24px 0 24px 0;
 }
 .span-class{
     color: #F4F4FD;
@@ -100,6 +102,8 @@ body{
 }
 .list{
     list-style: none;
+    display: flex;
+    gap: 40px;
 }
 .title-section{
     font-weight: 500;
@@ -178,6 +182,8 @@ body{
 }
 .list {
     list-style: none;
+    display: flex;
+    align-items: center;
   }
   .all-web-app{
     font-family: "Roboto", sans-serif;
@@ -227,4 +233,9 @@ body{
 }
 .header-div{
      display: flex;
+}
+.container{
+    width: 1158px;
+    margin: 0;
+    padding: 0 15px 0 15px 0 15px;
 }
