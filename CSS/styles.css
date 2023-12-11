@@ -30,6 +30,9 @@ body{
     color: var(--brand-color-iris);
     margin-right: 76px;
     padding: 24px 0 24px 0;
+    display: inline-block;
+    margin-bottom: 16px;
+
 }
 .span-class{
     color: #F4F4FD;
@@ -178,6 +181,7 @@ body{
 }
 .footer{
     background-color: #2e2f42;
+    padding: 100px 0 100px;
 
 }
 .webstudio-link{
@@ -194,6 +198,7 @@ body{
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 264px;
 
 }
 .list {
